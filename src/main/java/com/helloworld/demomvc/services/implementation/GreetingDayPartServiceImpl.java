@@ -3,11 +3,6 @@ package com.helloworld.demomvc.services.implementation;
 import java.util.Calendar;
 import com.helloworld.demomvc.services.GreetingService;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
-
-@Service
-@Qualifier("dayPart")
 public class GreetingDayPartServiceImpl implements GreetingService {
 
     @Override
